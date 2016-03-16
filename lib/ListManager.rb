@@ -1,7 +1,7 @@
 class ListManager
   attr_accessor :item, :completion
 
-  def competion
+  def completion
     "incomplete"
   end
 end

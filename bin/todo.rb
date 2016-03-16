@@ -8,7 +8,17 @@ task = ListManager.new
 puts "What item would you like to add?"
 print "> "
 task.item = gets.chomp
+task.completion
 
+list = []
+
+todo = [task.item, task.completion]
+list.push(todo)
+
+
+####################################
+######### testing output ###########
 
 puts task.item
-puts task.methods
+puts task.completion
+puts list
